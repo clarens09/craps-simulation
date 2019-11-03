@@ -28,6 +28,12 @@ public class PlayWithInheritance
 		if (RUN_EXAMPLE == 1)
 		{
 			StdOut.println("Note the output: constructor chaining.");
+			
+			Die die = new Die();
+			
+			die = crooked1;
+			
+			die.testStatic();
 		}
 		else if (RUN_EXAMPLE == 2)
 		{
